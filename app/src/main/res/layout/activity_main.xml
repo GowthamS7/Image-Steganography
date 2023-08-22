@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="16dp"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:id="@+id/encode_button"
+        android:layout_width="295dp"
+        android:layout_height="272dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/button_background"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:text="Encode" />
+
+    <Button
+        android:id="@+id/decode_button"
+        android:layout_width="292dp"
+        android:layout_height="288dp"
+        android:layout_below="@+id/encode_button"
+        android:layout_alignEnd="@+id/encode_button"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="3dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_background"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:text="Decode" />
+</RelativeLayout>
